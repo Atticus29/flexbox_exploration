@@ -1,0 +1,39 @@
+.flexbox-parent{
+  display: flex;
+  justify-content: space-around;
+}
+
+#flexbox-child-1{
+  background-color: red;
+}
+
+#flexbox-child-2{
+  width: 50em;
+  background-color: green;
+}
+
+#flexbox-child-3{
+  background-color: #800080;
+}
+
+$primary-color: #000000;
+
+.primary{
+  background-color: $primary-color;
+}
+
+.subtitle{
+  text-align: center;
+}
+
+.nav-wrapper{
+  background-color: $primary-color;
+}
+
+.input-field{
+  background-color: $primary-color;
+}
+
+.centered{
+  text-align: center;
+}
